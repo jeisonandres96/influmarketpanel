@@ -1,5 +1,4 @@
-const express = require('express');
-const app = express();
+
 
 app.use(express.json());
 app.use(express.static('public'));
@@ -131,3 +130,4 @@ app.listen(PORT, () => {
     console.log(`Panel Influmarket Col activo en puerto ${PORT}`);
     console.log(`Soporte completo: Mazsocialmarket + MarketFollowers (cualquier servicio)`);
 });
+
